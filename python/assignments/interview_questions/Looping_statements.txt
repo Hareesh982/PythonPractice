@@ -1,0 +1,167 @@
+1. Why do we need break and continue in Python?
+
+Both break and continue are statements that control flow in Python loops.
+break stops the current loop from executing further and transfers the control to the next block.
+continue jumps to the next iteration of the loop without exhausting it.
+
+
+2. Will the do-while loop work if you don’t end it with a semicolon?
+
+Python does not support an intrinsic do-while loop.
+Secondly, to terminate do-while loops is a necessity for languages like C++.
+
+
+3. what does the Continue do in python:
+
+The continue is a jump statement in Python which moves the control to execute the next iteration in a loop leaving all the remaining instructions in the block unexecuted.
+The continue statement is applicable for both the “while” and “for” loops.
+
+
+4. when should we use break in python?
+
+Python provides a break statement to exit from a loop.
+Whenever the break hits in the code, the control of the program immediately exits from the body of the loop.
+The break statement in a nested loop causes the control to exit from the inner iterative block.
+
+
+5. What would be the output for the following piece of code?
+
+animals = [ 'cat', 'dog']
+for pet in animals:
+    pet.upper( ) 
+print(animals)
+
+output :  [‘cat’, ‘dog’]
+
+
+6. What would be the output of the following code?
+
+numbers = [1,2,3,4] 
+for i in numbers:
+    numbers.append(i + 1) 
+print(numbers)
+
+This piece of code will not generate any output as the ‘for’ loop will never stop executing. 
+In every iteration, one element is added to the end of the list and the list keeps growing in size.
+
+
+7. What will be the output for the following code?
+
+i = 6
+while True:
+    if i%4 == 0:
+        break
+    print(i)
+    i -= 2 
+
+output : 6
+
+
+8. Write a code to print the following pattern:
+*
+**
+***
+****
+
+for i in range(1,5):
+    print("*"*i)
+
+
+9. Write code to produce the following pattern:
+1
+22
+333
+4444
+
+count = 1 
+while count < 5:
+    print(str(count)*count) 
+    count = count + 1
+
+
+10. Write code to spell a word entered by the user.
+
+word = input ("Please enter a word : ") 
+for i in word: 
+    print (i)
+
+
+11. Write code to reverse a string.
+
+string1 = "AeRoPlAnE" 
+temp = list (string1) 
+count = len(temp)-1 
+reverse_str=' ' 
+while count>=0:
+    reverse_str = reverse_str + temp[count] 
+    count = count-1 
+print(reverse_str)
+
+
+12. What are the statements that are used to control a loop?
+
+pass,break,continue
+
+
+13. What are the two major loop statements?
+
+for and while
+
+
+14. Under what circumstances would you use a while statement rather than for?
+
+The while statement is used for simple repetitive looping and the for statement is used when one wishes to iterate through a list of items,
+such as database records, characters in a string, etc.
+
+
+15. What happens if you put an else statement after a block?
+
+The code in the else block is executed after the for loop completes, 
+unless a break is encountered in the for loop execution, in which case the else block is not executed.
+
+
+16. Explain the use of break and continue in Python looping.
+
+The break statement stops the execution of the current loop, and transfers control to the next block. 
+The continue statement ends the current block’s execution and jumps to the next iteration of the loop.
+
+
+17. When would you use a continue statement in a for loop?
+
+When processing a particular item was complete; to move on to the next, without executing further processing in the block.
+The continued statement says, “I’m done processing this item, move on to the next item.”
+
+
+18. When would you use a break statement in a for loop?
+
+When the loop has served its purpose. As an example, after finding the item in a list searched for, there is no need to keep looping. 
+The break statement says, “I’m done in this loop; move on to the next block of code.”
+
+
+19. Can the else clause be used after a while loop? When is it executed? ,
+
+Yes. The else block is executed after the while condition becomes false, 
+but not if the while loop is exited with a break statement.
+
+20. Write a Python program to construct the following pattern, using a nested for loop.
+
+* 
+* * 
+* * * 
+* * * * 
+* * * * * 
+* * * * 
+* * * 
+* * 
+*
+
+n=5;
+for i in range(n):
+    for j in range(i):
+        print ('* ', end="")
+    print('')
+
+for i in range(n,0,-1):
+    for j in range(i):
+        print('* ', end="")
+    print('')

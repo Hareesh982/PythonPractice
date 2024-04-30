@@ -1,0 +1,32 @@
+{
+    "names": [
+        {
+            "first_name": "Jim",
+            "age": 32
+        },
+        {
+            "first_name": "Fred",
+            "age": 32
+        },
+        {
+            "first_name": "Bob",
+            "age": "28"
+        },
+        {
+            "first_name": "Joe",
+            "age": 40
+        },
+        {
+            "first_name": "Brent",
+            "age": 24
+        },
+        {
+            "first_name": "lexi",
+            "age": 24
+        },
+        {
+            "first_name": "Dom",
+            "age": "21"
+        }
+    ]
+}

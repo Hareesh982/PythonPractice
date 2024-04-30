@@ -1,0 +1,72 @@
+Configuring in a Git :-
+        git config --global user.name "firstname lastname"
+        git config --global user.email "email"
+
+cd -
+--------Switches to Previous directory
+
+cd..
+--------Switches to Parent Directory
+
+cd~
+--------Switches to home directory
+
+
+ls
+--------lists all the Folder and files in the Prsent Directory
+ls -a
+--------lists all the hidden files in the present directory
+
+
+pwd
+--------displays the present working directory
+
+
+mkdir FolderName
+--------Creates a folder
+
+rm -rf FolderName
+--------Delets a folder
+
+touch FileName
+--------Create a file
+
+nano filename
+--------opens a file
+
+rm filename
+--------delets a file
+
+rm -i filename
+--------Prompts for a confirmation to delete a file
+
+cat filename
+--------Displays the file content
+
+
+For an error :- Fatal : Working Tree "..." Already Exists
+	use command :- unset GIT_WORK_TREE
+the above error occurs while trying to clone a repository
+
+
+
+git clone url
+--------clones the repository
+
+git status
+--------Displays the status of the repository (modified,untracked,staged,unmodified)
+
+
+git add filename
+--------Adds new or changed files in your working directory to the git staging area.
+
+git add .
+--------Adds all the modified and new files to the git staging area.
+
+git commit -m "message"
+--------It is the record of the change (Commits the Changes in the Local repository)
+
+
+git push origin main
+--------pushes the local comiited repo to remote repo
+

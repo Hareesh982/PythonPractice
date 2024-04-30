@@ -1,0 +1,40 @@
+{
+    "Employee_details":
+    [
+        {
+            "Name" : "Hareesh",
+            "DOB" : "13-12-2000",
+            "Height" : "5.10",
+            "City" : "Bangalore",
+            "State" : "Karnataka"
+        },
+        {
+            "Name": "Rajesh",
+            "DOB": "12-04-2002",
+            "Height": "5.10",
+            "City": "Hyderabad",
+            "State": "Telangana"
+        },
+        {
+            "Name": "Chaitanya",
+            "DOB": "24-11-1999",
+            "Height": "6.1",
+            "City": "Bangalore",
+            "State": "Karnataka"
+        },
+        {
+            "Name": "Asha",
+            "DOB": "12-11-2000",
+            "Height": "5.10",
+            "City": "Chennai",
+            "State": "Tamilnadu"
+        },
+        {
+            "Name": "Naveen",
+            "DOB": "16-06-1994",
+            "Height": "6.2",
+            "City": "Mumbai",
+            "State": "Maharastra"
+        }
+    ]
+}

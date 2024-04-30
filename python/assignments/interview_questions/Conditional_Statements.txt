@@ -1,0 +1,147 @@
+1. What Is the Purpose of the Pass Statement?
+
+The pass statement is used when there's a syntactic but not an operational requirement. 
+For example - The program below prints a string ignoring the spaces.
+
+
+2. What are the three main conditional statements in Python?
+
+if, elif, and else
+
+
+3. Illustrate a basic if, elif, else structure.
+
+if <condition>:
+. . .
+elif <another condition>:
+. . .
+else:
+. . .
+
+
+4. What does elif mean?
+
+It means else if. It is used after an if statement, to do another comparison.
+
+
+5. How are if, elif, and else blocks defined?
+
+All blocks in Python are defined by indenting.
+All lines of a particular code block must have the same level of indenting.
+
+
+6.  Illustrate a switch-case equivalent using if-elif-else.
+
+if item=valueA:
+. . .
+elif item == valueB:
+. . .
+elif item = =  valueC:
+. . .
+elif item = valueN:
+. . .
+else:
+… #default code
+
+
+7. How is the Python switch statement used?
+
+This is a trick question, there is no built-in switch statement in Python, which is unusual.
+A switch statement can be easily created using if-elif using lambda or with Python dictionaries.
+
+
+8. Illustrate comparing two strings for equality in a case insensitive manner.
+
+if string_l. lower ( ) = string2.lower ( ):
+#Note: .upper( ) is equally valid.
+
+
+9. How would you use a “if ” statement to check whether an integer is even ?
+
+x = int(input("enter number : ")) 
+if x%2 == 0:
+    print("You have entered an even number")
+
+
+10. What is the meaning of conditional branching?
+
+Deciding whether certain sets of instructions must be executed or not based on the value of an expression is called conditional branching.
+
+
+11. what does a control structure directs in a Python program?
+
+Directs the order of execution of the statements in the program
+
+
+12. What signifies the end of a statement block or suite in Python?
+
+A line that is indented less than the previous line
+
+
+13. what is the output of the following code snippet
+
+if 'bar' in {'foo': 1, 'bar': 2, 'baz': 3}:
+    print(1)
+    print(2)
+    if 'a' in 'qux':
+        print(3)
+print(4)
+
+1
+2
+4
+
+
+14. Suppose you have the following variables defined:
+
+a = 100
+b = 50
+Write a Python if/else statement to assign the smaller of a and b to the variable m.
+
+if a < b:
+    m = a
+else:
+    m = b
+
+
+15. What is the value of below expression:
+
+'a' + 'x' if '123'.isdigit() else 'y' + 'b'
+
+'ax'
+
+
+16. Suppose you have two variables x and y defined. Write a stub if statement to evaluate whether x is less than y. 
+    The statement should not do anything, even if the condition is true.
+
+if x < y:
+    pass
+
+
+17. What are conditional statements in Python
+
+A conditional statement as the name suggests itself, is used to handle conditions in your program. 
+These statements guide the program while making decisions based on the conditions encountered by the program.
+
+
+18. Write a Python program to find those numbers which are divisible by 7 and multiples of 5, between 1500 and 2700 (both included).
+
+nl=[]
+for x in range(1500, 2701):
+    if (x%7==0) and (x%5==0):
+        nl.append(str(x))
+print (','.join(nl))
+
+
+19. how many types of conditional statements are there in python
+
+Python has 3 key Conditional Statements that you should know: if statement. if-else statement. if-elif-else ladder.
+
+
+20. Write a python program to check whether you are eligible to vote or not?
+
+age = int(input("Enter voters age:"))
+if age >= 18:
+    print("You can cast your vote!")
+else:
+    print("Sorry! You are not eligible to vote!")

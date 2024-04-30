@@ -1,0 +1,118 @@
+DATA TYPES
+
+1. Name four of the main data types in Python 
+
+    Numbers, strings, lists, dictionaries, tuples, files, and sets are generally considered the main types of data.
+    Types, None, and Boolean are sometimes also classified this way. The integer, floating-point, complex, fraction 
+    and decimal are numerical data types and simple strings and Unicode strings in Python 2 and text strings and byte 
+    strings in Python 3 are the types of string data types
+
+
+2. What does immutable mean and what three types of Python core data types are considered immutable?
+
+    An immutable data type is a type of object which cannot be modified after its creation. 
+    Numbers, strings, and tuples in Python fall into this category. 
+    Although you cannot modify an immutable object in place, you can always create a new one by running an expression.
+
+
+3. What does sequence mean and which three types of data fall into this category?
+
+    A sequence data type is a collection of objects ordered by a specific position. 
+    In Python, Strings, lists, and tuples are the data types based on sequences. 
+    The Sequences share common sequence operations, such as indexing, concatenation, and slicing, but also have type-specific method calls
+
+
+4. What does mapping mean and what kind of data type is based on mapping?
+
+    A mapping type is a data type comprised of a collection of keys and associated values.
+    Python's only built-in mapping type is the dictionary. Dictionaries implement the associative array abstract data type.
+
+
+5. What is polymorphism and why should you care?
+
+    Polymorphism means that the meaning of an operation (like a+) depends on the objects being operated.
+    This turns out to be a key idea behind good use of Python, not coercing code to specific types makes 
+    that code automatically applied to many types.
+
+
+6. What do you call a value that doesn’t have decimal values?
+
+    An integer
+
+
+7. What do we call it when we convert from one data type to another?
+
+    casting
+
+
+8. How Will You Check If All the Characters in a String Are Alphanumeric?
+
+    Python has an inbuilt method isalnum() which returns true if all characters in the string are alphanumeric. 
+
+
+9. How Would You Remove All Leading Whitespace in a String?
+
+    Python provides the inbuilt function lstrip() to remove all leading spaces from a string.
+
+
+10. What Is the Difference Between Del and Remove() on Lists?
+
+    del removes all elements of a list within a given range.
+    remove() removes the first occurrence of a particular character.
+
+
+11. Differentiate Between append() and extend().
+
+    append() adds an element to the end of the list.
+    extend() adds elements from an iterable to the end of the list.
+
+
+12. What Is the Difference Between a List and a Tuple?
+
+    Lists are mutable while tuples are immutable.
+
+
+13. What Is Docstring in Python?
+
+    Docstrings are used in providing documentation to various Python modules, classes, functions, and methods.
+
+
+14. How will you capitalize the first letter of string?
+
+    The capitalize() function in Python capitalizes a string's initial letter.
+    It returns the original text if the string already contains a capital letter at the beginning.
+
+
+15.What is the best way to add values to a Python array
+
+    The append(), extend(), and insert (i,x) procedures can be used to add elements to an array.
+
+
+16. What is the best way to remove values from a Python array?
+
+    The pop() and remove() methods can be used to remove elements from an array.
+    The difference between these two functions is that one returns the removed value while the other does not.
+
+
+17. How can you concatenate two tuples?
+
+    tup1=(1,"a",True)
+    tup2=(4,5,6)
+    print(tup1+tup2)
+
+
+18. How do you get a list of all the keys in a dictionary?
+
+    One of the ways we can get a list of keys is by using: dict.keys()
+    This method returns all the available keys in the dictionary.
+
+
+19. How will you remove duplicate elements from a list?
+
+    list0 = [2, 6, 4, 7, 4, 6, 7, 2]
+    list1 = list(set(list0)) print (“The list without duplicates : ” + str(list1))
+
+
+20. What is the type () in Python?
+
+    type() is a built-in method that either returns the type of the object or returns a new type of object based on the arguments passed.

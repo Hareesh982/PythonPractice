@@ -1,0 +1,180 @@
+1. What Does the // Operator Do?
+
+In Python, the / operator performs division and returns the quotient in the float.
+For example: 5 / 2 returns 2.5
+The // operator, on the other hand, returns the quotient in integer.
+For example: 5 // 2 returns 2
+
+
+2. What Does the ‘is’ Operator Do?
+
+The ‘is’ operator compares the id of the two objects. 
+
+
+3. What is the purpose of ‘not’, ‘is’, and ‘in’ operators?
+
+not- returns the boolean value's inverse
+is- returns true when both operands are true
+in- determines whether a certain element is present in a series
+
+
+4. What are the different types of operators in Python?
+
+Arithmetic (Addition(+), Substraction(-), Multiplication(*), Division(/), Modulus(%) ),
+Relational (<, >, <=, >=, ==, !=, ),
+Assignment (=. +=, -=, /=, *=, %= ),
+Logical (and, or not ), Membership, Identity, and Bitwise Operators
+
+
+5. Explain the ternary operator in Python.
+
+Unlike C++, we don’t have ?: in Python, but we have this:
+[on true] if [expression] else [on false]
+If the expression is True, the statement under [on true] is executed. Else, that under [on false] is executed.
+
+
+6. What are assignment operators in Python?
+
+We can combine all arithmetic operators with the assignment symbol.
+
+>>> a=7
+>>> a+=1
+>>> a
+8
+
+>>> a-=1
+>>> a
+7
+
+>>> a*=2
+>>> a
+14
+
+>>> a/=2
+>>> a
+7.0
+
+>>> a**=2
+>>> a
+49.0
+
+>>> a//=3
+>>> a
+16.0
+
+>>> a%=4
+>>> a
+
+
+7. Explain logical operators in Python.
+
+We have three logical operators- and, or, not.
+
+>>> False and True
+False
+
+>>> 7<7 or True
+True
+
+>>> not 2==2
+False
+
+
+8. What are membership operators?
+
+With the operators ‘in’ and ‘not in’, we can confirm if a value is a member in another.
+
+
+9. What are the comparison operators in Python?
+
+< Less than, > Greater than, <= Less than or equal to, >= Greater than or equal to, = Equal to,
+!= not equal, o alternative not equal. Note a single = is NOT a Python comparison operator, it is an assignment operator only.
+
+
+10. What is the difference between a = 10 and a= = 10?
+
+The expression a = 10 assigns the value 10 to variable a, whereas a == 10 checks if the value of a is equal to 10 or not. 
+If yes then it returns ‘Ti^te’ else it will return ‘False’. 
+
+
+11. What are the basic rules of operator precedence in Python?
+
+The basic rule of operator precedence in Python is as follows:
+
+Expressions must be evaluated from left to right.
+Expressions of parenthesis are performed first.
+
+Parenthesis
+Exponent
+Multiplication
+Division
+Addition
+Subtraction
+
+
+12. What is the difference between implicit expression and explicit expression?
+
+Conversion is the process of converting one data type into another. Two types of conversion in Python are as follows:
+
+Implicit type conversion
+Explicit type Conversion
+
+When Python automatically converts one data type to another it is called implicit conversion.
+Explicit conversion is when the developer has to explicitly convert datatype of an object to carry out an operation.
+
+
+13. What is the another name of Comparison Operators?
+
+Relational Operators
+
+
+14. Explain Operators and Operands?
+
+Operators are special symbols that represent computations like addition and multiplication.
+The values the operator uses are called Operands.
+
+
+15. What will be the output of the following code
+
+a = 12 
+a, b = a+1, a+1
+print a 
+print b
+
+2
+2
+
+
+16. What value have been check by ” < = ” operator?
+
+It checks if the value of left operand is less than or equal to the value of right operand, 
+if yes then condition becomes true
+
+
+17. What is the use of “%” operator?
+
+The “%” operator divides left hand operand by right hand operand and returns remainder.
+
+
+18. What do you mean by Operator precedence?
+
+Operator precedence determines the grouping of terms in an expression.
+This affects how an expression is evaluated. Certain operators have higher precedence than others; 
+for example, the multiplication operator has higher precedence than the addition operator
+
+
+19. Assume if A = 60; and B = 13; then find the values of the following :A&BA|B
+
+Here in binary format they will be as follows:
+A = 0011 1100
+B = 0000 1101
+
+hence
+A&B = 0000 1100 and A|B = 00111101
+
+
+20. Explain assigning values to variables in Python.
+
+Python variables do not have to be explicitly declared to reserve memory space.
+The declaration happens automatically when you assign a value to a variable.
+The equal sign (=) is used to assign values to variables.

@@ -1,0 +1,124 @@
+1. Write a Function Prototype That Takes a Variable Number of Arguments.
+
+def fun(*var):
+    for i in var:
+        print(i)
+
+fun(1)
+fun(1,25,6)
+
+
+2. What Are *args and *kwargs?
+
+*args 
+
+It is used in a function prototype to accept a varying number of arguments.
+It's an iterable object. 
+Usage - def fun(*args)
+*kwargs 
+
+It is used in a function prototype to accept the varying number of keyworded arguments.
+It's an iterable object
+Usage - def fun(**kwargs):
+
+
+3. “in Python, Functions Are First-class Objects.” What Do You Infer from This?
+
+It means that a function can be treated just like an object. You can assign them to variables, 
+or pass them as arguments to other functions. You can even return them from other functions.
+
+
+4. Explain global variables and local variables in Python.
+
+Local Variables:
+A local variable is any variable declared within a function. This variable exists only in local space, not in global space.
+
+Global Variables:
+Global variables are variables declared outside of a function or in a global space. Any function in the program can access these variables.
+
+
+5. What is the Lambda function?
+
+A lambda function is a type of anonymous function.
+This function can take as many parameters as you want, but just one statement.
+
+
+6. Why Lambda is used in Python?
+
+Lambda is typically utilized in instances where an anonymous function is required for a short period of time. 
+Lambda functions can be applied in two different ways:
+
+Assigning Lambda functions to a variable
+Wrapping Lambda function into another function
+
+
+7. In Python, are arguments provided by value or reference?
+
+Pass by value: The actual item's copy is passed. Changing the value of the object's copy has no effect on the original object's value.
+Pass by reference: The actual object is passed as a reference. The value of the old object will change if the value of the new object is changed.
+
+
+8. What is recursion?
+
+Recursion is a function calling itself one or more times in it body. 
+One very important condition a recursive function should have to be used in a program is, 
+it should terminate, else there would be a problem of an infinite loop.
+
+
+9. How does a function return values?
+
+A function uses the ‘return’ keyword to return a value.
+
+
+10. What are the two types of functions in Python?
+
+There are two types of functions in Python: built-in functions and user-defined functions.
+Built-in functions are functions that are already defined in the Python language, such as the print() function.
+User-defined functions are functions that are created by the user, and they can be created to do anything that the user wants them to do.
+
+
+11. When should you use anonymous functions and when should you use regular ones?
+
+There is no definitive answer to this question, as it depends on the specific situation and what you are trying to accomplish.
+However, a general rule of thumb is that anonymous functions are best used for simple tasks that can be easily expressed in a single line of code. 
+Regular functions, on the other hand, are better suited for more complex tasks that require multiple lines of code.
+
+
+12. Do Python functions have return values? If yes, then how many can they have?
+
+Yes, Python functions can have return values.
+They can have a single return value, or they can have multiple return values.
+
+
+13. Why does Python support both positional and keyword arguments to its functions?
+
+Python supports both positional and keyword arguments in order to give developers more flexibility when designing their functions.
+Positional arguments are those that are passed in by position, without explicitly specifying the parameter name.
+Keyword arguments are those that are passed in by explicitly specifying the parameter name. 
+Python allows for both types of arguments so that developers can choose the approach that makes the most sense for their particular function.
+
+
+14. Is it possible to pass a variable number of arguments to a function in Python? If yes, then how?
+
+Yes, it is possible to pass a variable number of arguments to a function in Python.
+This can be done using the *args and **kwargs parameters. 
+*args allows for a variable number of non-keyworded arguments to be passed to a function, 
+while **kwargs allows for a variable number of keyworded arguments to be passed.
+
+
+15. Can you explain the difference between named parameters and keyword parameters in Python?
+
+In Python, named parameters are those that are assigned a name in the function definition, 
+while keyword parameters are those that are assigned a value when the function is called. 
+For example, in the following function definition, the parameter x is a named parameter, while the parameter y is a keyword parameter:
+
+def func(x, y=5):
+    pass
+
+
+16. How do you access the value returned by a function invoked in another function?
+
+You can access the value returned by a function invoked in another function by using the return statement.
+For example, if you have a function that calculates the sum of two numbers, 
+you can access the value returned by the function by using the return statement.
+
